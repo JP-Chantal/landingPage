@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page Project</title>
+  </head>
+  <body>
+    <!-- <h1>BUSINESS LANDING PAGE PROJECT</h1> -->
+
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <!-- About Us -->
+            <li><a href="#logIn ">Log In / sign up </a></li>
+            <!-- <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li> -->
+            <li><a class="active" href="#home">Home</a></li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/pic1.png"
+                  width="66px"
+                  height="66px"
+                  alt="logo"
+                  class="logo" /></a
+              >Itech Solution
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="card card_bg_blue">
+        <header class="card_header">
+          <img src="images/pic10.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic11a.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic4.jpg" width="150px" height="150px" alt="" />
+
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (1)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+        <p class="card_lead">
+          One cannot put a price on a child education, so therefore, its never
+          too early to teach a child to read the sooner the better.
+        </p>
+
+        <img src="images/img1.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img2.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img3.jpg" width="150px" height="150px" alt="" />
+
+        <p>
+          It would be fun for kids to have their first book, especially If they
+          were inspired at an early age to read books. They would sit in their
+          own secret place for hours reading a book. So, why wait to sign up
+          this will not only benefit you but also your kids.
+        </p>
+      </div>
+
+      <div class="card card_bg_white">
+        <header class="card_header">
+          <img src="images/pic7.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic21.png" width="150px" height="150px" alt="" />
+          <img src="images/pic6.jpg" width="150px" height="150px" alt="" />
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (2)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+        <p class="card_lead">
+          Subscribe now, and you will be able to download a book or several
+          books at the same time and at any time of the day; It will take you,
+          just a couple of seconds to download a book. We know how precious time
+          is to you why waste it, when you could spend it with love ones.
+        </p>
+        <button type="button" onclick="myFunction()">
+          Start your free trial
+        </button>
+
+        <p id="demo">
+          This is a super offer for you, it only comes once in a blue moon
+
+          <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML =
+                "30 days free trial, yes, unlimited books for you to read for 30 days and as I said it's free.";
+            }
+          </script>
+        </p>
+      </div>
+
+      <div class="card card_bg_gray">
+        <header class="card_header">
+          <img src="images/pic14.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic20.png" width="150px" height="150px" alt="" />
+          <img src="images/pic18.jpg" width="150px" height="150px" alt="" />
+
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (3)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+
+        <p class="card_lead">
+          It is amazing how one can use a book to inspire a child or children to
+          start to love reading, especially when they’re using different voices
+          for each character. Kids usually get a kick out of, when a slightly
+          older child is reading to them and also showing them how easy it is to
+          learn to read.
+        </p>
+        <img src="images/img4.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img7.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img6.jpg" width="150px" height="150px" alt="" />
+
+        <p>
+          Kids are naturally curious if you inspire your kids to read at an
+          early age, they more likely to inspirer their classmate to do the
+          same. Usually, their imagination started from the moment their parent
+          begins to read them bed time stories.
+        </p>
+      </div>
+
+      <div class="card card_bg_white">
+        <header class="card_header">
+          <img src="images/pic15.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic12.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic9.jpg" width="150px" height="150px" alt="" />
+
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (4)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+        <p class="card_lead">
+          If you Sign up now, you will gain access to our massive database and I
+          can guarantee, you won’t regret it.
+        </p>
+        <br /><br />
+
+        <form action="/action_page.php" autocomplete="on">
+          <label for="firstName">First name:</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="Enter your name "
+            required
+          /><br /><br />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="mail@mail.com"
+            required
+          /><br /><br />
+          <input type="submit" id="submit" />
+        </form>
+        <br /><br />
+      </div>
+
+      <div class="card card_bg_purple">
+        <header class="card_header">
+          <img src="images/pic5.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic22.png" width="150px" height="150px" alt="" />
+          <img src="images/pic23.jpg" width="150px" height="150px" alt="" />
+
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (5)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+        <p class="card_lead">
+          Once you subscribe you can read at your own leisure, you have amazing
+          offer here and it right at your fingertip. You don’t even have to take
+          a chance it all win! win!.......
+        </p>
+
+        <img src="images/img13.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img10.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img11.jpg" width="150px" height="150px" alt="" />
+
+        <p>
+          It's not only young kids have a special place for reading; whether
+          they’re reading for fun or they’re studying for their exams. It
+          doesn’t matter they’re reading books or ebooks ; so therefore one can
+          see how important books are, not only for this generation but for the
+          many more generations yet to come.
+        </p>
+      </div>
+
+      <div class="card card_bg_black">
+        <header class="card_header">
+          <img src="images/pic6.jpg" width="150px" height="150px" alt="" />
+          <img src="images/pic24.png" width="150px" height="150px" alt="" />
+          <img src="images/pic13.jpg" width="150px" height="150px" alt="" />
+
+          <div>
+            <h3>
+              You can read a book online on any devices the choice is yours (6)
+            </h3>
+            <p>
+              You can check for yourself our database is huge ==> happy reading
+            </p>
+          </div>
+        </header>
+        <p class="card_lead">
+          All our books are available in an electronic form. Obviously, it will
+          be exactly like a book, with text and images, but better because you
+          can download so many books on your gadget and you can take anywhere
+          you like and it won’t be heavy for you to carry unlike books.
+        </p>
+
+        <img src="images/img15.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img14.jpg" width="150px" height="150px" alt="" />
+        <img src="images/img16.jpg" width="150px" height="150px" alt="" />
+
+        <p>
+          It doesn’t matter what gadget you choose to read your books on there
+          are so many devices out there e.g. Mobile Phone, Tablet, Computer
+          whether it a Desktop or a Laptop there all do the same job well, where
+          ebooks are concern. What every you feel comfortable with we have a lot
+          of books that you can read whether its Fiction or Non-Fiction whatever
+          you seek we have it.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <h3>© 2024 Project From <a href="#">Bootcamp Mentor</a></h3>
+    </footer>
+  </body>
+</html>
